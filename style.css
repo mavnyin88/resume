@@ -75,9 +75,13 @@ float:left;
 .job-name p{
 width:100%;
 text-align:left;
+font-size:15px;
 }
 .job-time{
 float:right;
+}
+.job-time p{
+	font-size:15px;
 }
 .job-name,.job-time{
 font-size:17px;
