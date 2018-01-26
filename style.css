@@ -37,6 +37,12 @@ float:left;
 #header #contact{
 float:right;
 }
+/*#header #name h3{
+border-top:0;
+}*/
+#header #name p{
+font-size:15px;
+}
 #header #contact a i{
 text-decoration:none;
 color:#f5f5f5;
@@ -77,14 +83,14 @@ width:100%;
 text-align:left;
 font-size:15px;
 }
+.job-name p:nth-child(1){
+font-size:17px;
+}
 .job-time{
 float:right;
 }
 .job-time p{
-	font-size:15px;
-}
-.job-name,.job-time{
-font-size:17px;
+font-size:15px;
 }
 .job-roles{
 margin-top:20px;
@@ -114,5 +120,24 @@ text-align: center;
 width:100%;
 padding:30px;
 margin:0;
+}
+.job-name,.job-time{
+float:none;
+}
+#header{
+margin-bottom:20px;
+}
+section#work, section#education{
+margin-top:20px;
+}
+.work-experience#margin-top{
+margin-top:30px;
+}
+#reference{
+margin-top:0;
+padding-bottom:0;
+}
+#reference p{
+font-size:12px;
 }
 }
