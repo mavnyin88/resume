@@ -37,9 +37,6 @@ float:left;
 #header #contact{
 float:right;
 }
-/*#header #name h3{
-border-top:0;
-}*/
 #header #name p{
 font-size:15px;
 }
@@ -118,8 +115,11 @@ text-align: center;
 @media screen and (max-width:768px) {
 #container{
 width:100%;
-padding:30px;
+padding:20px;
 margin:0;
+}
+h3{
+padding-top:0;
 }
 .job-name,.job-time{
 float:none;
@@ -131,7 +131,7 @@ section#work, section#education{
 margin-top:20px;
 }
 .work-experience#margin-top{
-margin-top:30px;
+margin-top:20px;
 }
 #reference{
 margin-top:0;
